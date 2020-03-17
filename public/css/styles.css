@@ -1,0 +1,283 @@
+#main-container {
+    
+}
+#logo {
+    padding: 15px 0 15px 0;
+    
+   
+}
+
+#logoRow {
+    text-align: center;
+}
+
+#orangeBand {
+    background-color: #e65400;
+    line-height: 10px;
+    margin-left: 0;
+    
+}
+
+#whiteBand {
+    background-color: #f0f1f3cc;
+    margin-left: 0;
+}
+
+#orangeBand, #whiteBand, #footer {
+    margin-right: 0px;
+    flex-wrap: nowrap;
+}
+
+#header {
+    /* padding-left: 50px; */
+    float: left;
+}
+
+.header {
+    margin: 6px 0 8px 0;
+}
+
+.header, a.nav-item {
+    color: #676a70;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+a.nav-item {
+    margin: 0 35px 0 30px;
+    padding: 0 6px;
+}
+
+#carouselSlides {
+    z-index: -1;
+    margin-top: -42px;
+    width: auto;
+    
+}
+
+#feature {
+    /* background-color:#cf6121d2; */
+    margin-top: -100px;
+    width: 65%;
+}
+
+#over-carousel {
+     background-color:#cf6121d2;
+}
+
+p.over-carousel {
+    text-align: center;
+    opacity: 100%;
+    color: white;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+}
+
+#under-carousel {
+    background-color: gray;
+    text-align: center;
+}
+
+p.under-carousel {
+    color: rgb(224, 224, 224);
+    text-align: center;
+    opacity: 100%;
+    margin: 10px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+}
+
+#feature-button {
+    margin: 5px 10px 35px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+button {
+    background-color: #cf6121d2;
+    color: white;
+}
+
+#searchIcon {
+  margin: -9px 0 -7.5px 0;
+    
+}
+
+#recentnews{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 350;
+    color: #cf6121d2;
+    letter-spacing: 3.5px;
+}
+
+#instagram {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 350;
+    color: #cf6121d2;
+    letter-spacing: 3.5px;
+    padding: 0 -5px;
+    margin-left: 6px;
+    
+}
+
+#instafeed {
+    margin-left: 6px;
+    
+}
+
+#bottom-row {
+    margin: 20px;
+}
+
+#title {
+     color: #cf6121d2;
+     font-weight: 650;
+}
+
+#news-article {
+    margin: 0 0 0 -50px;
+}
+
+#date {
+    font-size: 14px;
+}
+
+#summary {
+    font-size: 14px;
+}
+
+#feed {
+    border-left: 2px solid #676a7052;
+}
+
+#footer {
+     background-color: #e65400;
+     color: white;
+     text-align: center;
+     font-size: 14px;
+}
+#footer-content {
+   width: 65%;
+}
+
+#socials {
+padding-left: 100px;
+margin-right: -150px;
+}
+
+#footer-text {
+margin-left: -85px;
+}
+
+#copyright {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    height: 50px;
+    font-size: 13px;
+    align-content: center;
+    margin-right: 0;
+    
+}
+
+#copy-content {
+    width: 65%;
+}
+
+#copy-text {
+    margin-left: -85px;
+}
+
+@media screen and (max-width: 1200px) {
+    #searchIcon {
+        /* float: right; */
+        margin: -7px 0 -7px 0;
+    }
+    a.nav-item {
+        margin: 0 10px;
+        padding: 0 6px;
+    }
+    .header {
+    
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    a.nav-item {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    a.nav-item {
+        margin: 0;
+        padding: 0;
+        font-size: 75%;
+    }
+    div.header {
+        padding: 0 15px 0 50px;
+    }
+    #searchIcon {
+        margin-left: 0px;
+
+    }
+    p.over-carousel {
+        font-size: 85%;
+        padding: 0 0 0 0;
+        margin-bottom: 4px;
+    }
+    #feature {
+        width: 85%;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 530px) {
+    #logo {
+        height: 75px;
+    }
+    #carouselSlides {
+        margin-top: -33px;
+        
+    }
+    a.nav-item {
+        margin: 0 -2px;
+    }
+    #searchIcon {
+        margin: 0 -12px 0 0;
+        padding: 0 0 0 0;
+        height: 30px;
+    }
+    div.header {
+        margin: 0 0 0;
+        font-size: 80%;
+    }
+    #header.col-md.header {
+        padding: 0 0 0 5px;    
+    }
+    #feature {
+        margin-top: -10px;
+        width: 85%;
+        padding: 0 0 0 0;
+    }
+    p.over-carousel {
+        font-size: 10px;
+        padding: 0 0 0 0;
+    }
+    p.under-carousel {
+        font-size: 10px;
+        padding: 0 0 0 0;
+    }
+    #feature-button {
+        width: 85%;
+        font-size: 10px;
+    }
+    div#whiteband {
+        height: 50px;
+    }
+}
